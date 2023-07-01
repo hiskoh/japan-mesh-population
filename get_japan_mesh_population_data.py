@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import io
+import re
 from bs4 import BeautifulSoup as bs
 
 #各種変数を指定
