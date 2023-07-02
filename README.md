@@ -3,7 +3,7 @@
 
 **成果物CSVの例**
 
-[国勢調査2020 人口メッシュデータ250mメッシュ・年齢別人口、世帯の種類別世帯数等](https://app.box.com/s/qcpal72afgrpwkidc5cpc6whww4za5ic)
+[国勢調査2020 人口メッシュデータ250mメッシュ・年齢別人口、世帯の種類別世帯数等](https://www.dropbox.com/scl/fo/e9bd74iww0t8pibw4ydvn/h?rlkey=xea2wegjgv6jhcimvwoe7asmv&dl=0)
 
 
 # 手順
@@ -18,7 +18,8 @@
 
 ## 2. Pythonでのデータ一括取得
 
-取得用Pythonコードはこちらに格納済です。
+取得用Pythonコードはこちらに格納しています。
+一括で取得する想定でコードを組みましたが、実際は通信状況やPCスペック等に応じて、途中で処理を分割することをお勧めします。
 
 https://github.com/hiskoh/japan-mesh-population/blob/main/get_japan_mesh_population_data.py
 
